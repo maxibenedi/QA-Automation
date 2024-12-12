@@ -28,9 +28,9 @@ describe('sauce demo test',{testIsolation:false},()=>{
 
         //comando con los datos del checkout
         cy.Checkout()
-        cy.get('#react-burger-menu-btn').click()
 
         //cerrar sesion
+        cy.get('#react-burger-menu-btn').click()
         cy.contains('Logout').click()
     })
 })
