@@ -30,7 +30,7 @@ A continuación, se proporcionan los enlaces y documentación relevante como evi
 
  - [Reporte de bug](https://docs.google.com/document/d/18se_qFxhKkUzCb2lAdymZeobMTEeK2pk8mdXA2NMDGo/edit?usp=drive_link)
 
- - [evidencias](https://drive.google.com/drive/folders/1PJ82XqvSwtfdTHNU6TtlzAv0YDjl3lSe?usp=drive_link)
+ - [Capturas y videos](https://drive.google.com/drive/folders/1PJ82XqvSwtfdTHNU6TtlzAv0YDjl3lSe?usp=drive_link)
 
 
 
