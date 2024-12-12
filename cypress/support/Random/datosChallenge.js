@@ -13,6 +13,7 @@ Cypress.Commands.add('LoginUser2',(User,Password)=>{
 })
 
 Cypress.Commands.add('Checkout',()=>{
+    cy.contains('Checkout').click()
     cy.get('input[placeholder="First Name"]').type('Maxi')
     cy.get('input[placeholder="Last Name"]').type('Benedi')
     cy.get('input[placeholder="Zip/Postal Code"]').type('5008')
