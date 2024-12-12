@@ -1,4 +1,4 @@
-describe('sauce demo test',{testIsolation:false},()=>{
+describe('sauce demo test',{testIsolation:false},()=>{ 
     
     it('comprar con user 1',()=>{
 
@@ -6,7 +6,7 @@ describe('sauce demo test',{testIsolation:false},()=>{
         cy.LoginUser1('standard_user','secret_sauce')
 
         //agregar el producto al carrito
-        cy.contains('Add to cart').eq('0').click()
+        cy.get('[data-test="add-to-cart-sauce-labs-backpack"]').click()
         cy.get('[data-test="shopping-cart-link"]').click()
 
         // comando con los datos del checkout
@@ -23,7 +23,7 @@ describe('sauce demo test',{testIsolation:false},()=>{
         cy.LoginUser2('problem_user','secret_sauce')
 
         //agregar producto al carrito
-        cy.contains('Add to cart').eq('0').click()
+        cy.get('[data-test="add-to-cart-sauce-labs-onesie"]').click()
         cy.get('[data-test="shopping-cart-link"]').click()
 
         //comando con los datos del checkout
